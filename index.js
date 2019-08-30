@@ -1,12 +1,13 @@
 var animal = 'dog';
 
 function myAnimal() {
+  var x = "cat";
+  console.log(myAnimal);
+  console.log(x);
   return animal
 }
 function yourAnimal() {
-  var x = "cat";
-  console.log(yourAnimal);
-  console.log(x);
+
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
